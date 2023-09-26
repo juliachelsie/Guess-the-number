@@ -15,7 +15,7 @@ def user_guess(x):
         elif (user_guess > number):
             print('Sorry you guessed to high, guess again!')
         else:
-            print(f'Woho you guessed correct, it was {number}!')
+            print(f'Woho you guessed correct, it was {number}!\n')
 
 
 def computer_guess(x):
@@ -27,13 +27,13 @@ def computer_guess(x):
     response = ''
     while response != 'r':
         guess = random.randint(low, high)
-        response = input(f'Is {guess} to low (L), to high (H), or right (R)?\n')
+        response = input(f'Is {guess} to low(L), to high(H), or right(R)?\n')
         if response == 'l':
             low = guess + 1
         elif response == 'h':
             high = guess - 1
 
-    print(f'The computer guessed your number, {guess}!')        
+    print(f'The computer guessed your number, {guess}!')
 
 
 """

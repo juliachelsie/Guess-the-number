@@ -1,32 +1,9 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Guess The Number
 
-Welcome,
+Guess The Number is a python terminal game. Users play against the computer by guessing a number that the computer randomly has chosen. The player can also decide a number and let the computer guess it. 
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+## How to play
 
-## Reminders
+ The computer will ask the user to guess a number between 1 and 100, if the user guess a number that is to high the computer will print "Sorry you guessed to high, guess again!". If the user guess a number that is to low, the computer will print "Sorry you guessed to low, guess again!". If the user guess the right number the computer will print "Woho you guessed correct, it was (number)!"
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
----
-
-Happy coding!
+The user can also decide a number and let the computer guess it. The computer will print out "Is (number) to low(L), to high(H), or right(R)?" and the user can choose to press "L" if it is to low, "H" if it is to high or "R" if the number the computer is guessing s right. When the computer guess right the frase "The computer guessed your number, (number)!" will print and the game is over. 
