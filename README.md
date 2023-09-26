@@ -10,9 +10,27 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 ## Features
 
+### User guessing the number
+
 - The computer asks the user to guess a number between 1 and 100
 
-- The computer print different answers if the user guessed to high, low or right. 
+![MakeGuess](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/makeguess.PNG)
+
+- The computer print different answers if the user guessed to high, low or right.
+
+![Guess_High_Low](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/guess-high-low.PNG)
 
 - The computer print a message that telles the user that the guess was right.
+
+![Result](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/result-user.PNG)
+
+### The computer guessing the numer
+
+- The computer prints a message asking the user if the number is to low, to high or right. the user press a key (L/H/R).
+
+![copmuter_guessing](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/computer-guess.PNG)
+
+- When the computer guess the right number a message prints.
+
+![ComputerWin](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/computer-right.PNG)
 
