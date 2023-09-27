@@ -11,9 +11,9 @@ def user_guess(x):
         user_guess = int(input(f'Make a guess between 1 and {x}:\n'))
 
         if (user_guess < number):
-            print('Sorry you guessed to low, guess again!\n')
+            print('Sorry you guessed too low, guess again!\n')
         elif (user_guess > number):
-            print('Sorry you guessed to high, guess again!\n')
+            print('Sorry you guessed too high, guess again!\n')
         else:
             print(f'Woho you guessed correct, it was {number}!\n')
 
@@ -27,7 +27,7 @@ def computer_guess(x):
     response = ''
     while response != 'r':
         guess = random.randint(low, high)
-        response = input(f'Is {guess} to low(L), to high(H), or right(R)?\n')
+        response = input(f'Is {guess} too low(L), too high(H), or right(R)?\n')
         if response == 'l':
             low = guess + 1
         elif response == 'h':
@@ -37,7 +37,7 @@ def computer_guess(x):
 
 
 """
-Calling the functions
+Calling functions
 """
 user_guess(100)
 computer_guess(100)
