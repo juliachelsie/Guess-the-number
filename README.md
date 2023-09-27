@@ -28,7 +28,7 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 ### The computer guessing the numer
 
-- The computer prints a message asking the user if the number is to low, to high or right. the user press a key (L/H/R).
+- The computer prints a message asking the user if the number is to low, to high or right. The user press a key (L/H/R).
 
 ![copmuter_guessing](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/computer-guess.PNG)
 
@@ -38,7 +38,7 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 ## Testing
 
-I have tested the code through a PEP8 linter and confirmed that there are no problems.
+I have tested the code through a PEP8 linter and confirmed that there are no problems or errors.
 
 ![Testing](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/test-validator.PNG)
 
@@ -61,5 +61,6 @@ Steps i followed for deployment:
 
 - Code Institute for the deployment terminal
 - I searched the internet for ideas for this project and found an article that i took inspiration from on [UpGrad](https://www.upgrad.com/blog/python-projects-ideas-topics-beginners/)
+- I imported the random module to my project and read all about it at [python](https://docs.python.org/3/library/random.html)
 
 
