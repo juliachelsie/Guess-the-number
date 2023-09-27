@@ -34,3 +34,27 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 ![ComputerWin](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/computer-right.PNG)
 
+## Testing
+
+I have tested the code through a PEP8 linter and confirmed that there are no problems.
+
+### Bugs
+
+There are no bugs.
+
+## Deployment
+
+The project was deployed using Code Institute's moch terminal for Heroku.
+
+Steps i followed for deployment:
+- I cloned the repository
+- I created a new Heroku app 
+- I set the buildpacks to Python and NodeJS
+- I linked the Heroku app to the repository
+- Then i clicked on Deploy
+
+## Credits
+
+- Code Institute for the deployment terminal
+
+
