@@ -16,31 +16,31 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 - The computer will ask the user to enter a name, then greets the user by that name and the game starts
 
-![Name](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/entername.PNG)
+![Name](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/welcomename.PNG)
 
 ### User guessing the number
 
 - The computer asks the user to guess a number between 1 and 20
 
-![MakeGuess](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/makeguess.PNG)
+![MakeGuess](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/makeguess2.PNG)
 
 - The computer print different answers if the user guessed too low, too high or right.
 
-![Guess_High_Low](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/makeguess-high-low.PNG)
+![Guess_High_Low](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/user-guess-high-low.PNG)
 
 - The computer print a message that tells the user that the guess was right.
 
-![Result](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/result-user.PNG)
+![Result](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/result-user2.PNG)
 
-### The computer guessing the numer
+### The computer guessing the number
 
 - The computer prints a message asking the user if the number is too low, too high or right. The user press a key (L/H/R).
 
-![copmuter_guessing](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/computer-guess-2.PNG)
+![copmuter_guessing](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/comnputer-guess.PNG)
 
 - When the computer guesses the right number a message prints.
 
-![ComputerWin](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/computer-right2.PNG)
+![ComputerWin](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/computer-result.PNG)
 
 ## Testing
 
