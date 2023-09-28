@@ -1,13 +1,15 @@
 import random
 
 
-def get_user_data():
+def get_user_name():
 
-    print('Welcome to a game where you guess a number only the computer knows')
-    print('You can only guess numbers.')
-    print("Enter your name please:")
-    name = input()
-    print(f"Hello {name}! Let's play!\n")
+    while True:
+        print('Welcome to a game where you guess a number the computer picked')
+        print('You can only guess numbers.')
+        print("Enter your name please:")
+        name = input()
+        print(f"Hello {name}! Let's play!\n")
+        break
 
 
 def user_guess(x):
@@ -51,6 +53,6 @@ def computer_guess(x):
 """
 Calling functions
 """
-get_user_data()
+get_user_name()
 user_guess(20)
 computer_guess(20)
