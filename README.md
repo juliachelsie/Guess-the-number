@@ -36,7 +36,7 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 - When the user guessed right, it's the computers turn to guess. A message prints that easily explains for the user how it is going to work.
 
-![ComputerTurn]
+![ComputerTurn](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/computerturn.PNG)
 
 - The computer prints a message asking the user if the number is too low, too high or right. The user press a key (L/H/R).
 
