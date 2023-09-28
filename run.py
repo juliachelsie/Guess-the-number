@@ -1,15 +1,14 @@
 import random
 
 
-print("Enter your name please:")
-name = input()
-print(f"Hello {name}! Let's play a game!\n")
-
-
 def user_guess(x):
     """
     Function that generates a random number between 1 and 100
     """
+    print("Enter your name please:")
+    name = input()
+    print(f"Hello {name}! Let's play a game!\n")
+
     number = random.randint(1, x)
     user_guess = 0
     while user_guess != number:
