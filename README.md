@@ -6,7 +6,7 @@ Guess The Number is a python terminal game. Users play against the computer by g
 
 ## How to play
 
- The computer will ask the user to guess a number between 1 and 100, if the user guess a number that is too high the computer will print "Sorry you guessed too high, guess again!". If the user guess a number that is too low, the computer will print "Sorry you guessed too low, guess again!". If the user guess the right number the computer will print "Woho you guessed correct, it was (number)!"
+ The computer will ask the user to guess a number between 1 and 20, if the user guess a number that is too high the computer will print "Sorry you guessed too high, guess again!". If the user guess a number that is too low, the computer will print "Sorry you guessed too low, guess again!". If the user guess the right number the computer will print "Woho you guessed correct, it was (number)!"
 
 The user can also decide a number and let the computer guess it. The computer will print out "Is (number) too low(L), too high(H), or right(R)?" and the user can choose to press "L" if it is too low, "H" if it is too high or "R" if the number the computer guessed is right. When the computer guesses right the frase "The computer guessed your number, (number)!" will print and the game is over. 
 
@@ -20,7 +20,7 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 ### User guessing the number
 
-- The computer asks the user to guess a number between 1 and 100
+- The computer asks the user to guess a number between 1 and 20
 
 ![MakeGuess](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/makeguess.PNG)
 

@@ -25,6 +25,7 @@ def user_guess(x):
             print('Sorry you guessed too low, guess again!\n')
         elif (user_guess > number):
             print('Sorry you guessed too high, guess again!\n')
+
         else:
             print(f'Woho you guessed correct, it was {number}!\n')
 
