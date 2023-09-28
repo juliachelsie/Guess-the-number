@@ -12,6 +12,10 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 ## Features
 
+### Entering a name
+
+- The computer will ask the user to enter a name, then greets the user by that name and the game starts.
+
 ### User guessing the number
 
 - The computer asks the user to guess a number between 1 and 100
