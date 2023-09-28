@@ -1,14 +1,19 @@
 import random
 
 
-def user_guess(x):
-    """
-    Function that generates a random number between 1 and 100
-    """
+def get_user_data():
+
+    print('Welcome to a game where you guess a number only the computer knows')
+    print('You can only guess numbers.')
     print("Enter your name please:")
     name = input()
-    print(f"Hello {name}! Let's play a game!\n")
+    print(f"Hello {name}! Let's play!\n")
 
+
+def user_guess(x):
+    """
+    Function that generates a random number between 1 and 20
+    """
     number = random.randint(1, x)
     user_guess = 0
     while user_guess != number:
@@ -26,6 +31,9 @@ def computer_guess(x):
     """
     Function that makes the computer guess a number the user think about
     """
+    print(f"Now it's your turn to pick a number between 1 and {x}!")
+    print('The computer will now guess your number.')
+    print("Press H if it's to high, L if it's to low and R if it's right!\n")
     low = 1
     high = x
     response = ''
@@ -43,5 +51,6 @@ def computer_guess(x):
 """
 Calling functions
 """
-user_guess(100)
-computer_guess(100)
+get_user_data()
+user_guess(20)
+computer_guess(20)
