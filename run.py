@@ -30,9 +30,8 @@ def user_guess(x):
                 else:
                     print(f'Woho you guessed correct, it was {number}!\n')
             break
-        except ValueError as e:
-            print(e)
-            print('Only enter numbers please, try again:')   
+        except ValueError:
+            print('Only enter numbers please, try again:')
 
 
 def computer_guess(x):
@@ -56,10 +55,10 @@ def computer_guess(x):
                     high = guess - 1
 
             print(f'The computer guessed your number, {guess}!')
+            break
         except ValueError as e:
             print(e)
             print('Only enter "H","L" or"R" please, try again:')
-        break
 
 
 """
