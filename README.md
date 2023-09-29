@@ -12,13 +12,15 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 ## Features
 
-### Entering a name
+### Existing features
+
+#### Entering a name
 
 - The computer will ask the user to enter a name, then greets the user by that name and the game starts
 
 ![Name](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/welcomename.PNG)
 
-### User guessing the number
+#### User guessing the number
 
 - The computer asks the user to guess a number between 1 and 20
 
@@ -26,13 +28,17 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 - The computer print different answers if the user guessed too low, too high or right.
 
+- If the user guesses anything else than a number, a message prints that tells the user to only enter numbers.
+
+![Guess]()
+
 ![Guess_High_Low](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/user-guess-high-low.PNG)
 
 - The computer print a message that tells the user that the guess was right.
 
 ![Result](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/result-user2.PNG)
 
-### The computer guessing the number
+#### The computer guessing the number
 
 - When the user guessed right, it's the computers turn to guess. A message prints that easily explains for the user how it is going to work.
 
@@ -46,6 +52,10 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 ![ComputerWin](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/computer-result.PNG)
 
+### Features left to implement
+- I would like to set a limit of tries when the user guesses against the computer. It will make the game a bit harder.
+- I would also like to correct the code so that when the computer guesses the number, the user can only enter "H", "L" or "R". If the user enters anything else a text will appear that tells the user to try again. I did not have the time for that now.
+
 ## Testing
 
 I have tested the code through a PEP8 linter and confirmed that there are no problems or errors.
@@ -53,8 +63,7 @@ I have tested the code through a PEP8 linter and confirmed that there are no pro
 ![Testing](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/test-validator.PNG)
 
 ### Bugs
-
-
+There are no bugs.
 
 ## Deployment
 

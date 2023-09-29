@@ -39,26 +39,23 @@ def computer_guess(x):
     Function that makes the computer guess a number the user think about
     """
 
-    while True:
-        
-            print(f"Now it's your turn to pick a number between 1 and {x}!\n")
-            print('The computer will now guess your number.')
-            print("Press H if it's to high, L if it's to low, R if right!\n")
-            low = 1
-            high = x
-            response = ''
-            while response != 'r':
-                guess = random.randint(low, high)
-                response = input(f'Is {guess} too low, too high, or right?\n')
-                if response == 'l':
-                    low = guess + 1
-                elif response == 'h':
-                    high = guess - 1
-                elif response != 'h' 'l' 'r':
-                    print('Only "H", "L" and "R" are allowed, try again!')
+    print(f"Now it's your turn to pick a number between 1 and {x}!\n")
+    print('The computer will now guess your number.')
+    print("Press H if it's to high, L if it's to low, R if right!\n")
+
+    low = 1
+    high = x
+    response = ''
+    while response != 'r':
+        guess = random.randint(low, high)
+        response = input(f'Is {guess} too low, too high, or right?\n')
+        if response == 'l':
+            low = guess + 1
+        elif response == 'h':
+            high = guess - 1
+        else:
             print(f'The computer guessed your number, {guess}!')
-            break
-        
+
 
 """
 Calling functions
