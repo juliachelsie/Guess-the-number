@@ -14,25 +14,21 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 ### Existing features
 
-#### Entering a name
+#### User guessing the number
 
 - The computer will ask the user to enter a name, then greets the user by that name and the game starts
 
 ![Name](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/welcomename.PNG)
 
-#### User guessing the number
-
 - The computer asks the user to guess a number between 1 and 20
 
 ![MakeGuess](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/makeguess2.PNG)
 
-- The computer print different answers if the user guessed too low, too high or right.
-
-#### Make shore user typing in number
-
 - If the user guesses anything else than a number, a message prints that tells the user to only enter numbers.
 
-![Guess]()
+![Guess](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/guesshat.PNG)
+
+- The computer print different answers if the user guessed too low, too high or right.
 
 ![Guess_High_Low](https://github.com/juliachelsie/guess-the-number/blob/main/documentation/user-guess-high-low.PNG)
 
