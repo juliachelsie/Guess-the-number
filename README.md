@@ -28,6 +28,8 @@ The user can also decide a number and let the computer guess it. The computer wi
 
 - The computer print different answers if the user guessed too low, too high or right.
 
+#### Make shore user typing in number
+
 - If the user guesses anything else than a number, a message prints that tells the user to only enter numbers.
 
 ![Guess]()
@@ -55,6 +57,14 @@ The user can also decide a number and let the computer guess it. The computer wi
 ### Features left to implement
 - I would like to set a limit of tries when the user guesses against the computer. It will make the game a bit harder.
 - I would also like to correct the code so that when the computer guesses the number, the user can only enter "H", "L" or "R". If the user enters anything else a text will appear that tells the user to try again. I did not have the time for that now.
+
+## Data model
+
+As data model i used three functions that stores everything that is needed to run the game such as:
+- Print methods that prints out what is happening in the game.
+- A user_guess variable that contains the users guesses against the computer.
+- A response variable that contains the users answer when the computer is guessing.
+
 
 ## Testing
 
