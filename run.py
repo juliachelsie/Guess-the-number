@@ -48,7 +48,7 @@ def computer_guess(x):
     response = ''
     while response != 'r':
         guess = random.randint(low, high)
-        response = input(f'Is {guess} too low, too high, or right?\n')
+        response = input(f'Is {guess} too low(L), too high(H), or right(R?)\n')
         if response == 'l':
             low = guess + 1
         elif response == 'h':
