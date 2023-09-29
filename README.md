@@ -54,7 +54,7 @@ I have tested the code through a PEP8 linter and confirmed that there are no pro
 
 ### Bugs
 
-There are no bugs.
+
 
 ## Deployment
 

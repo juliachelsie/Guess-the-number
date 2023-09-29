@@ -38,9 +38,10 @@ def computer_guess(x):
     """
     Function that makes the computer guess a number the user think about
     """
+
     while True:
-        try:
-            print(f"Now it's your turn to pick a number between 1 and {x}!")
+        
+            print(f"Now it's your turn to pick a number between 1 and {x}!\n")
             print('The computer will now guess your number.')
             print("Press H if it's to high, L if it's to low, R if right!\n")
             low = 1
@@ -53,13 +54,11 @@ def computer_guess(x):
                     low = guess + 1
                 elif response == 'h':
                     high = guess - 1
-
+                elif response != 'h' 'l' 'r':
+                    print('Only "H", "L" and "R" are allowed, try again!')
             print(f'The computer guessed your number, {guess}!')
             break
-        except ValueError as e:
-            print(e)
-            print('Only enter "H","L" or"R" please, try again:')
-
+        
 
 """
 Calling functions
